@@ -13,3 +13,11 @@ console.log(arr[0]); // show the first index of an arr
 
 //Arrays are used to organize values in a specific order
 //they allow us to check values one-by-one and perform tasks with them, using a loop.
+
+let greeting = "Hello my name is";
+let myName = "Muhammad";
+ myName += " Salihu"
+let str = "And i have";
+let apples = 22;
+
+console.log(greeting, myName, str, apples);
