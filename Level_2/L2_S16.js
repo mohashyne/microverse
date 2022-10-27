@@ -29,7 +29,7 @@ let j = 0; //if you change this number it will start from the declared value
 
 while(j < 10){
     j++; //it will check the condition first and go back to check again if 'i' is smaller than '10' it will continue until the condition is met.
-    //result 0,1,2,3,4,5,6,7,8,9. (we see the number before its increment)
+    //result 1,2,3,4,5,6,7,8,9. (we see the number before its increment)
 }
     console.log(j);
 
