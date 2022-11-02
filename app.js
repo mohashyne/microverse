@@ -1,35 +1,46 @@
-// Please complete these steps before moving forward:
 
-// Create the array arr = [1, 2, 3, 4];
-// Then, create a function that reverses and translates the array, such that it returns the output [“four”, “three”, “two”, “one”];
-// Change the input of the function to arr = [4, 1, 1, 2] and verify that the result is [“two”, “one”, “one”, “four”].
-// Now change the input to [1, 2, 1, 2] and verify that the output is [“two”, “one”, “two”, “one”]
+// function fizzBuzz(n) {
+//     // Write your code here
+//     for(let i = 1; i < n; i++){
+// console.log(i)
+// if(n % 3 === 0 & n % 5 === 0){
+//      n = "FizzBuzz";
+//  }
+//  if(n % 3 === 0){
+//      n = "Fizz";
+//  }
+//  if(n % 5 === 0){
+//      n = "Buzz";
+//  }  
+ 
+//   console.log(n)
+//    return n;  
+//     }
+     
+
+
+// fizzBuzz(15);
+
+// let bigArr = [[1, 2, 3], [4, 5, 6], [7, 7, 7]];
+
+// for(let i = 0; i < bigArr.length; i++){
+//     // console.log(bigArr[i])
+//     for(let j = 0; j < bigArr[i].length; j++){
+//         console.log(bigArr[j])
+//     }
+// }
+
+
+ //TODO 
+let arr = [3, 10, 9, 5, 2, 11, 7, 15, 13, 4 , 1, 13, 6, 14, 8];
 
 
 
-// SOLUTION
 
-function reverseBinary(arr){
-    let output = [];
-    for(let i = arr.length - 1; i >= 0; i--){
-        if(arr[i] === 1){
-            output.push("one");
-        }
-        if(arr[i] === 2){
-            output.push("two");
-        }
-        if(arr[i] === 3){
-            output.push("three");
-        }
-        if(arr[i] === 4){
-            output.push("four");
-        }
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] < 3 && arr[i] >= 7){
+
+        console.log(arr[i]);
     }
-    return output;
+
 }
-
-let result = reverseBinary([1, 2, 3, 4]);
-console.log(result);
-
-let result2 = reverseBinary([1, 2, 1, 2]);
-console.log(result2);
