@@ -57,4 +57,24 @@ function sumAllReverse(arr2){
   //sumAllReverse([1, 4]) //we want the sum 4+3+2+1, the small number will not always come last2, e.g it can be sumAllReverse([4, 1]) and still give same answer
   
   let result2 = sumAllReverse([4, 1]);
-  console.log(result2);
+  console.log(result2); 
+
+
+
+
+
+  function sumAll(arr){
+    let start = arr[0]
+    let end = arr[1]
+    
+    let sum = 0;
+    for(let j = start; j <= end; j++){
+        sum += i;
+    }
+    return sum;
+  }
+
+
+
+  let rebt = sumAll([1, 4]);
+  console.log(rebt)

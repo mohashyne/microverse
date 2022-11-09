@@ -42,7 +42,7 @@ function getIndexToIns(arr, num){
     //count only the numbers smaller than 19
     //in the belong variable.
     if(arr[i] < num){
-        belong ++;
+        belong ++; //this will add to the position of the index. But if u use belong += num, it will add the number that is supposed to be done.
     }
    }
 console.log(belong);
